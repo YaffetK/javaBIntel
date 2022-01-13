@@ -1,8 +1,9 @@
 package se.yaffet;
 
-public abstract class Animal/*extends Object*/ {
+public abstract class Animal{
 
-    private int age;
+    private int weight;
+    private boolean isHungry;
 
 
     public abstract boolean eat(Object food);

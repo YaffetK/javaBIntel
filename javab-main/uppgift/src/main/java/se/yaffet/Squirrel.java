@@ -40,6 +40,9 @@ public class Squirrel extends Animal {
 
     @Override
     public boolean eat(Object food) {
+        if (food instanceof numOfconesToEat) {
+            return true;
+        }
         return false;
     }
 }

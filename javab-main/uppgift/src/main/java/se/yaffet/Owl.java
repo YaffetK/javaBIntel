@@ -20,6 +20,9 @@ public class Owl extends Animal {
 
     @Override
     public boolean eat(Object food) {
-        return false;
+        if (food instanceof Squirrel) {
+            return true;
+        }
+         return false;
     }
 }
