@@ -15,6 +15,7 @@ public class PineTree {
         this.age = age;
     }
 
+
     public boolean fall(String season, double windSpeedKmH, int sunLightHoursADday, boolean accident) {
           if (season.equals("winter") || season.equals("fall")) {
               if (windSpeedKmH > 1.2 && sunLightHoursADday < 8 && this.age > 40) {

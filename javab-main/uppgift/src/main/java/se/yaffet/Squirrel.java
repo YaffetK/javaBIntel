@@ -37,10 +37,8 @@ public class Squirrel extends Animal {
         return this.isHungry;
     }
 
-
-    @Override
     public boolean eat(Object food) {
-        if (food instanceof numOfconesToEat) {
+        if (food instanceof Owl) {//den här raden är fel
             return true;
         }
         return false;
